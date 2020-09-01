@@ -2,9 +2,6 @@ from flask import Flask, request, jsonify, render_template, session, url_for, re
 import numpy as np
 from wtforms import TextField, SubmitField
 import tensorflow
-from keras.models import load_model
-import joblib
-
 from tensorflow.keras.models import load_model
 import joblib
 
